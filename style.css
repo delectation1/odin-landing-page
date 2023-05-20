@@ -35,11 +35,10 @@ a {
 button {
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 8px 32px;
-    border: none;
     font-size: 16px;
     font-weight: 700;
     color: #F9FAF8;
+    padding: 8px 32px;
 }
 
 p {
@@ -144,4 +143,25 @@ p {
     margin-left: auto;
     font-weight: 700;
     font-size: 18px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 36px 108px;
+    margin: 108px 16vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button-1 {
+    border: none;
+}
+
+#button-2 {
+    border-style: solid;
+    margin-left: auto;
+    border-color: #F9FAF8;
 }

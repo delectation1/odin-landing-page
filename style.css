@@ -14,6 +14,13 @@ footer {
     background-color: #1F2937;
 }
 
+footer {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
     padding: 16px 0px;
     margin-bottom: 32px;
@@ -41,25 +48,25 @@ button {
     padding: 8px 32px;
 }
 
-p {
-    margin-bottom: 8px;
-}
 
 .font-3 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 8px;
 }
 
 .font-2 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    margin-bottom: 8px;
 }
 
 .font-1 {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 8px;
 }
 
 #logo {
@@ -75,6 +82,7 @@ p {
 
 .wrapper {
     flex: 1;
+    margin-right: 16px;
 }
 
 .image {
@@ -164,4 +172,8 @@ p {
     border-style: solid;
     margin-left: auto;
     border-color: #F9FAF8;
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
